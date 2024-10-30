@@ -1,0 +1,29 @@
+TypeScript হলো Microsoft-এর তৈরি একটি প্রোগ্রামিং ভাষা, যা JavaScript-এর উপর ভিত্তি করে তৈরি হয়েছে এবং এতে স্ট্যাটিক টাইপস যোগ করা হয়েছে। এটি এমনভাবে ডিজাইন করা হয়েছে, যাতে ডেভেলপাররা কোড লেখার সময়ে টাইপ-সম্পর্কিত ভুল ধরতে পারেন এবং কোডের মান উন্নত করতে পারেন। TypeScript শেষ পর্যন্ত সাধারণ JavaScript-এ কম্পাইল হয়, তাই এটি যেকোনো জায়গায় চালানো সম্ভব যেখানে JavaScript চলে।
+
+কেন TypeScript ব্যবহার করা হয়?
+ TypeScript টাইপ-সম্পর্কিত ভুলগুলো কোড লিখবার সময় ধরতে সাহায্য করে, যা runtime-এ না গিয়ে আগেই সনাক্ত করা যায়।
+
+ চাইলে বলে দিতে পারেন যে একটি ভ্যারিয়েবল string, number বা boolean এবং সেটি যদি ভুলভাবে ব্যবহৃত হয়, তবে সাথে সাথেই নোটিফিকেশন পাবেন।
+
+  বড় আকারের প্রজেক্টে TypeScript খুবই জনপ্রিয়, কারণ এটি কঠোর টাইপিং এবং কোড স্ট্রাকচার প্রদান করে, যা জটিল অ্যাপ্লিকেশন পরিচালনা করা সহজ করে তোলে।
+
+JavaScript এবং TypeScript উদাহরণ
+
+  function add(a, b) {
+  return a + b;
+}
+
+console.log(add(5, "10")); // আউটপুট: "510", যা অপ্রত্যাশিত;
+
+;  //TypeScript
+
+ function add(a: number, b: number): number {
+  return a + b;
+}
+
+// Error: Argument of type 'string' is not assignable to parameter of type 'number'
+console.log(add(5, "10")); error
+
+console.log(add(5, 10)); right 
+
+
