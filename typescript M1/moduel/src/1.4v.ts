@@ -24,5 +24,7 @@ let y : undefined = undefined
 let friends : string [] = ["toma","sathi"]
 let number : number[] = [ 1,2,3]
 
-// tuple --> arry - order ->type of value
+// tuple --> arry - order ->type of value 
  let ageName : [number, string, boolean] = [25,"hridoy", true]
+
+//  ending
