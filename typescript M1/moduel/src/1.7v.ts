@@ -35,10 +35,23 @@
 // rest operator > eta spreade er familiar
 
 
+// learn rest operator
 
+ const friendlist = (friend1 :string, fridnd2 :string , friend3:string)=>{
+   console.log(`hi${friend1} ${fridnd2} ${friend3}`);
+    
+ }
 
+ friendlist("abul","kabul","mabul")
+//  friendlist("abul", "kabul", "mabul", "dibul") //akhane jodi amra frined barate chai tokhni error dibe
 
+// rest er kaj holo
 
+const greedfriend =(...friends :string[])=>{
+    friends.forEach((friend:string)=>console.log(`hi${friend}`));
+
+}
+greedfriend("abul", "kabul", "mabul", "dibul", "chabul")
 
 
 
