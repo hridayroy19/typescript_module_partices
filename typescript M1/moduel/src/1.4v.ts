@@ -1,4 +1,5 @@
-// basic data types  
+{
+    // basic data types  
 
 // string 
 let fastName :string = "Hridoy"
@@ -28,3 +29,4 @@ let number : number[] = [ 1,2,3]
  let ageName : [number, string, boolean] = [25,"hridoy", true]
 
 //  ending
+}

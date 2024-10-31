@@ -1,4 +1,5 @@
-// referance type  --> objcet
+{
+    // referance type  --> objcet
 
 const user: {
     fastName: string;
@@ -13,4 +14,5 @@ const user: {
     // medilName :"incoming",
     lastName: "roy",
     isSingle : true
+}
 }
