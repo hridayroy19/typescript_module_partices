@@ -16,8 +16,6 @@ const user ={
 const {contact , name:{middleName}} = user
 // const {contact : string > use kora jabe nah $ type use kora jabenh :contaceName kichu use korle name poribotton hobe , name:{middleName}} = user
 
-
-
 // array desticuturing 
 
 const girlsName = ["mini","debi","bithi","sejho","mamuni","modhu"];
