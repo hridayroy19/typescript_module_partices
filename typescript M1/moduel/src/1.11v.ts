@@ -14,11 +14,16 @@
 
 
      const isAdult = age >=18 ? "adult" : "not adult";
-     console.log({isAdult});
+    //  console.log({isAdult});
      
+// nullish coaescing operator
+// null / undefind upore modhe thake jdi kuno qustion make korte hoi tokhni eta use korbo
 
 
+const isAuthication = null ;
 
+const result = isAuthication ?? "gest"
+console.log({result});
 
 
 
