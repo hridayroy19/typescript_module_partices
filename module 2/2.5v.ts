@@ -23,6 +23,6 @@
     name:"hello "
   })
 
-
+//type take generice vabe use korte partchi abong monr moto data ues koter partci
     //
 }
