@@ -11,10 +11,16 @@
  console.log(mapingNumber);
  
 
+//akhane khub sohoje type gulake alda type convarte korte parteci mepped  er madhome
+ type ArrayNumber = {
 
+  hight:number;
+  width:number
+ }
 
-
-
+  type ArrayString ={
+    [key in keyof ArrayNumber] : string
+  }
 
 
 
