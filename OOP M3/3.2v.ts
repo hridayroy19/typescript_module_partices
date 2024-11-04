@@ -40,7 +40,7 @@ class teacher extends parent {
    
      constructor(name :string , age :string, address :string, loction :string ,designation : string){
         super(name, age, address, loction)
-      this.designation = this.designation
+         this.designation = designation
      }
     //  getSleepHours(numberHours : number){
     //   console.log(`${this.name} will take ${numberHours}`);
@@ -50,5 +50,5 @@ class teacher extends parent {
   
   const teacher1 = new teacher("hridoy", "20", "dinajpur", "setabhonj", "teacher")
 
-
+//
 }
